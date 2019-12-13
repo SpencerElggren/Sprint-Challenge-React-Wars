@@ -23,13 +23,13 @@ export default function Info() {
 
     return (
         <div>
-            <Button variant="primary" onClick={() => setPage('page=2')}>1</Button>
-            <Button variant="secondary" onClick={() => setPage('page=2')} >2</Button>
-            <Button variant="dark" onClick={() => setPage('page=2')} >3</Button>
-            <Button onClick={() => setPage('page=2')} >4</Button>
-            <Button onClick={() => setPage('page=2')} >5</Button>
-            <Button onClick={() => setPage('page=2')} >6</Button>
-            <Button onClick={() => setPage('page=2')} >7</Button>
+            <Button onClick={() => setPage('page=1')}>1</Button>
+            <Button onClick={() => setPage('page=2')} >2</Button>
+            <Button onClick={() => setPage('page=3')} >3</Button>
+            <Button onClick={() => setPage('page=4')} >4</Button>
+            <Button onClick={() => setPage('page=5')} >5</Button>
+            <Button onClick={() => setPage('page=6')} >6</Button>
+            <Button onClick={() => setPage('page=7')} >7</Button>
             <div>
                 {currentCharacter.map((char, index) => (
                     <SwCard
